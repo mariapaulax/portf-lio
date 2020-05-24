@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #852828;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: whitesmoke;
+}
+header {
+    padding: 32px;
+    border-bottom: 1px solid white;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.links{
+    text-align: center;
+}
+
+.links a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+    .links a:hover {
+        color: rgb(255, 242, 65);
+        transition: color 0.6s;
+        
+    }
+
+    #wrapper{
+        text-align: center;
+        padding: 32px;
+    }
+
+    #wrapper img{
+        border-radius: 50%;
+        border: 3px solid white;
+        margin-bottom: 32px;
+        height: 300px;
+    }
+
+    #wrapper h1{
+        font-size: 35px;
+        line-height: 45px;
+        font-weight:bold;
+        font-style: inherit;
+    }
+
+    #wrapper h3{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: lighter;
+        margin-top: 10px;
+        opacity: 0.9;
+    }
+
+    #wrapper p{
+        max-width: 500px;
+        margin: 20px auto;
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    #wrapper p a{
+        color:rgb(135, 207, 235);
+    }
+
+    #wrapper p a:hover{
+
+        color: rgb(255, 242, 65);
+        transition: color 0.6s;
+    }
+
+    #links-footer a {
+       border-bottom: 1px solid skyblue;
+    }
